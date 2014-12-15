@@ -816,6 +816,9 @@ section #title .credits {
 section #title .credits.left {
   float: left;
 }
+section #title .credits.center {
+  text-align: center;
+}
 section #title .credits.right {
   float: right;
 }
@@ -828,6 +831,10 @@ section #title .credits.right {
     text-align: center;
   }
   #title .credits .left {
+    float: none;
+    display: block;
+  }
+  #title .credits .center {
     float: none;
     display: block;
   }
